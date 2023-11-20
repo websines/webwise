@@ -170,7 +170,7 @@ const Navbar = () => {
           href="/contact"
           className="px-8 w-[70%] sm:w-auto py-4 bg-black rounded-lg text-white font-semibold hover:bg-blue-600  text-sm transition duration-200 ease-in-out hover:scale-105 flex flex-row items-center justify-center"
         >
-          Get Started!
+          Contact
         </Link>
       </div>
 
