@@ -1,4 +1,3 @@
-"use client";
 import BlogSection from "@/components/BlogSection";
 import FAQ from "@/components/FAQ";
 import Features from "@/components/Features";

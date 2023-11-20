@@ -118,7 +118,7 @@ const Navbar = () => {
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
-                  <Link href="/#slide-2">
+                  <Link href="/services">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
@@ -127,11 +127,11 @@ const Navbar = () => {
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
-                  <Link href="/#slide-3">
+                  <Link href="/faqs">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
-                      Features
+                      FAQs
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>

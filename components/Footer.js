@@ -20,13 +20,13 @@ const Footer = () => {
             </div>
 
             <div className="col-span-1">
-              <h4 className="font-semibold text-gray-100">Services</h4>
+              <h4 className="font-semibold text-gray-100">What we do</h4>
 
               <div className="mt-3 grid space-y-3">
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/account-management"
+                    href="/services"
                   >
                     Web Design
                   </a>
@@ -34,9 +34,9 @@ const Footer = () => {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/growth-management"
+                    href="/services"
                   >
-                    Something
+                    Web Development
                   </a>
                 </p>
                 <p>
@@ -57,7 +57,7 @@ const Footer = () => {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/about"
+                    href="/team"
                   >
                     About us
                   </a>

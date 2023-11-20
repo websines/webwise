@@ -10,7 +10,7 @@ import { useEffect } from "react";
 //   return data;
 // };
 
-const BlogSection = async () => {
+const BlogSection = () => {
   useEffect(() => {
     import("preline");
   }, []);
