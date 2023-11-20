@@ -136,7 +136,7 @@ const Navbar = () => {
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
-                  <Link href="/about">
+                  <Link href="/team">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
@@ -149,7 +149,7 @@ const Navbar = () => {
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
-                      Roadmap
+                      Blog
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -213,14 +213,9 @@ const Navbar = () => {
                       } flex-col`}
                     >
                       <ul className="flex flex-col space-y-2">
-                        <Link href="/account-management">
+                        <Link href="/services">
                           <li className="p-2 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl text-sm w-full">
                             Services
-                          </li>
-                        </Link>
-                        <Link href="/growth-management">
-                          <li className="p-2 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl text-sm w-full">
-                            Team
                           </li>
                         </Link>
                         <Link href="/faqs">
@@ -231,21 +226,21 @@ const Navbar = () => {
                       </ul>
                     </motion.div>
                   </li>
-                  <Link href="/about">
+                  <Link href="/team">
                     <li className="p-4 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl w-full flex flex-row items-baseline space-x-3">
                       <span className="text-sm font-semibold ">03. </span>{" "}
                       <span className="font-bold tracking-wide">Team</span>
                     </li>
                   </Link>
-                  {/* <Link href="/blog">
+                  <Link href="/blog">
                     <li className="p-4 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl w-full flex flex-row items-baseline space-x-3">
                       <span className="text-sm font-semibold ">04. </span>{" "}
                       <span className="font-bold tracking-wide">Blogs</span>
                     </li>
-                  </Link> */}
+                  </Link>
                   <Link href="/contact">
                     <li className="p-4 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl w-full flex flex-row items-baseline space-x-3">
-                      <span className="text-sm font-semibold ">04. </span>{" "}
+                      <span className="text-sm font-semibold ">05. </span>{" "}
                       <span className="font-bold tracking-wide">Contact</span>
                     </li>
                   </Link>
