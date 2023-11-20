@@ -2,10 +2,19 @@
 
 import { useEffect } from "react";
 
-const BlogSection = () => {
+// const getData = async () => {
+//   const query = `*[_type == "blog"][0...3]| order(_createdAt desc)`;
+
+//   const data = sanity_client.fetch(query);
+
+//   return data;
+// };
+
+const BlogSection = async () => {
   useEffect(() => {
     import("preline");
   }, []);
+
   return (
     <div className="bg-gray-50">
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
@@ -113,7 +122,7 @@ const BlogSection = () => {
             </div>
             <div class="pt-0 p-4 md:p-6">
               <div class="inline-flex items-center gap-2 text-sm font-medium text-white group-hover:text-white/[.7]">
-                Visit the site
+                Read the blogs
                 <svg
                   class="flex-shrink-0 w-4 h-4"
                   xmlns="http://www.w3.org/2000/svg"

@@ -19,7 +19,7 @@ const Services = () => {
           className="absolute top-0 left-0 w-full h-full object-cover -z-10"
         />
         <div className="bg-white p-6 text-black w-full sm:h-full h-auto sm:w-[30%]">
-          <h1 className="text-3xl sm:text-4xl  font-extrabold">FAQs</h1>
+          <h1 className="text-3xl sm:text-4xl  font-extrabold">Services</h1>
           <p className="my-4 text-sm font-medium">
             Our team are best in class and responsible for maximizing account
             goals and efficiently executing vital daily account tasks.
