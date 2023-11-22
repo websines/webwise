@@ -127,11 +127,11 @@ const Navbar = () => {
                   </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
-                  <Link href="/faqs">
+                  <Link href="/portfolio">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
                     >
-                      FAQs
+                      Portfolio
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -150,15 +150,6 @@ const Navbar = () => {
                       className={navigationMenuTriggerStyle()}
                     >
                       Blog
-                    </NavigationMenuLink>
-                  </Link>
-                </NavigationMenuItem>
-                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
-                  <Link href="/contact">
-                    <NavigationMenuLink
-                      className={navigationMenuTriggerStyle()}
-                    >
-                      Contact
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
@@ -201,7 +192,7 @@ const Navbar = () => {
                   >
                     <div className="flex flex-row items-baseline space-x-3">
                       <span className="text-sm font-semibold ">02. </span>{" "}
-                      <span className="font-bold tracking-wide">About</span>
+                      <span className="font-bold tracking-wide">Services</span>
                     </div>
                     <motion.div
                       initial={{ opacity: 0, height: 0 }}
@@ -213,14 +204,34 @@ const Navbar = () => {
                       } flex-col`}
                     >
                       <ul className="flex flex-col space-y-2">
-                        <Link href="/services">
+                        <Link href="/services/web-development">
                           <li className="p-2 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl text-sm w-full">
-                            Services
+                            Web Development
                           </li>
                         </Link>
-                        <Link href="/faqs">
+                        <Link href="/services/web-design">
                           <li className="p-2 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl text-sm w-full">
-                            FAQs
+                            Web Design
+                          </li>
+                        </Link>
+                        <Link href="/services/branding">
+                          <li className="p-2 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl text-sm w-full">
+                            Branding
+                          </li>
+                        </Link>
+                        <Link href="/services/animation">
+                          <li className="p-2 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl text-sm w-full">
+                            Animation
+                          </li>
+                        </Link>
+                        <Link href="/services/graphic-design">
+                          <li className="p-2 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl text-sm w-full">
+                            Graphic Design
+                          </li>
+                        </Link>
+                        <Link href="/services/seo">
+                          <li className="p-2 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl text-sm w-full">
+                            SEO
                           </li>
                         </Link>
                       </ul>
@@ -238,10 +249,10 @@ const Navbar = () => {
                       <span className="font-bold tracking-wide">Blogs</span>
                     </li>
                   </Link>
-                  <Link href="/contact">
+                  <Link href="/portfolio">
                     <li className="p-4 hover:bg-gray-500 hover:bg-opacity-25 rounded-xl w-full flex flex-row items-baseline space-x-3">
                       <span className="text-sm font-semibold ">05. </span>{" "}
-                      <span className="font-bold tracking-wide">Contact</span>
+                      <span className="font-bold tracking-wide">Portfolio</span>
                     </li>
                   </Link>
                 </ul>

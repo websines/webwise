@@ -1,5 +1,7 @@
 "use client";
 
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
 import Link from "next/link";
 
 const TopBar = () => {
@@ -11,23 +13,20 @@ const TopBar = () => {
             href="/faqs"
             className="font-semibold hover:text-cyan-300 duration-300"
           >
-            Lorem <span className="px-2 text-stone-400">|</span>
+            FAQs <span className="px-2 text-stone-400">|</span>
           </Link>
           <Link
             href="/contact"
             className="font-semibold hover:text-cyan-300 duration-300"
           >
-            Ipsum
+            Contact
           </Link>
         </div>
-        <div className="flex flex-row space-x-2 justify-end items-center">
-          <Link
-            href="/"
-            className="bg-white text-xs px-4 -my-3 py-3 flex flex-row items-center justify-center space-x-2 -py-2 font-semibold hover:bg-blue-400 duration-300"
-          >
-            Something
-            <span className="ml-1"></span>
-          </Link>
+        <div className="flex items-center space-x-2">
+          <Switch id="airplane-mode" />
+          <Label htmlFor="airplane-mode" className="text-white">
+            Dark Mode
+          </Label>
         </div>
       </div>
     </div>

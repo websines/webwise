@@ -26,7 +26,7 @@ const Footer = () => {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/services"
+                    href="/services/web-design"
                   >
                     Web Design
                   </a>
@@ -34,7 +34,7 @@ const Footer = () => {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/services"
+                    href="/services/web-development"
                   >
                     Web Development
                   </a>
@@ -42,9 +42,17 @@ const Footer = () => {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/faqs"
+                    href="/services/seo"
                   >
-                    FAQ
+                    SEO
+                  </a>
+                </p>
+                <p>
+                  <a
+                    className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                    href="/services/branding"
+                  >
+                    Branding
                   </a>
                 </p>
               </div>
@@ -76,6 +84,14 @@ const Footer = () => {
                     href="/contact"
                   >
                     Contact
+                  </a>{" "}
+                </p>
+                <p>
+                  <a
+                    className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
+                    href="/FAQs"
+                  >
+                    FAQs
                   </a>{" "}
                 </p>
               </div>
