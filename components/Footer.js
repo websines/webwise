@@ -89,7 +89,7 @@ const Footer = () => {
                 <p>
                   <a
                     className="inline-flex gap-x-2 text-gray-400 hover:text-gray-200"
-                    href="/FAQs"
+                    href="/faqs"
                   >
                     FAQs
                   </a>{" "}
