@@ -20,23 +20,6 @@ const Navbar = () => {
 
   const [isManagementOpen, setManagementOpen] = useState(false);
 
-  const components = [
-    {
-      title: "Account Management",
-      href: "/account-management",
-      description: "Lorem ipsum something something",
-    },
-    {
-      title: "Growth Management",
-      href: "/growth-management",
-      description: "Lorem Ipsum something something",
-    },
-    {
-      title: "FAQs",
-      href: "/faqs",
-      description: "Frequently Asked Questions",
-    },
-  ];
   const [isOverlayOpen, setOverlayOpen] = useState(false);
 
   useEffect(() => {
@@ -56,7 +39,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={` w-full top-0 p-4 bg-transparent z-50`}>
+    <nav className={` w-full top-0 p-4 bg-transparent z-50 `}>
       <div className="flex flex-row justify-between items-center">
         <div className="flex flex-row justify-center items-center space-x-2 ml-4 z-50">
           <motion.div
@@ -72,7 +55,7 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-6 h-6 dark:text-black"
             >
               {isOverlayOpen ? (
                 <path
@@ -108,7 +91,7 @@ const Navbar = () => {
           <ul className="hidden md:flex flex-row justify-evenly items-center">
             <NavigationMenu>
               <NavigationMenuList>
-                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
+                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black dark:text-white">
                   <Link href="/">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
@@ -117,7 +100,7 @@ const Navbar = () => {
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
-                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
+                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black dark:text-white">
                   <Link href="/services">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
@@ -126,7 +109,7 @@ const Navbar = () => {
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
-                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
+                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black dark:text-white">
                   <Link href="/portfolio">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
@@ -135,7 +118,7 @@ const Navbar = () => {
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
-                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
+                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black dark:text-white">
                   <Link href="/team">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
@@ -144,7 +127,7 @@ const Navbar = () => {
                     </NavigationMenuLink>
                   </Link>
                 </NavigationMenuItem>
-                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black">
+                <NavigationMenuItem className="hover:bg-gray-600 rounded-[10px] hover:bg-opacity-20 text-black dark:text-white">
                   <Link href="/blog">
                     <NavigationMenuLink
                       className={navigationMenuTriggerStyle()}
@@ -159,7 +142,7 @@ const Navbar = () => {
         </div>
         <Link
           href="/contact"
-          className="px-8 w-[70%] sm:w-auto py-4 bg-black rounded-lg text-white font-semibold hover:bg-blue-600  text-sm transition duration-200 ease-in-out hover:scale-105 flex flex-row items-center justify-center"
+          className="px-8 w-[70%] sm:w-auto py-4 bg-black rounded-lg text-white font-semibold hover:bg-blue-600  text-sm transition duration-200 ease-in-out hover:scale-105 flex flex-row items-center justify-center dark:bg-blue-600"
         >
           Contact
         </Link>

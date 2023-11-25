@@ -12,7 +12,7 @@ export default function Home() {
       <Hero />
       <Stats />
       <div
-        className="flex flex-1 self-center w-full justify-center items-center bg-gray-50"
+        className="flex flex-1 self-center w-full justify-center items-center bg-gray-50 dark:bg-black dark:text-white"
         id="#slide-2"
       >
         <span className="text-2xl sm:text-4xl font-semibold py-4 sm:py-8">
@@ -21,7 +21,7 @@ export default function Home() {
       </div>
       <Services />
       <div
-        className="flex flex-1 self-center w-full justify-center items-center bg-gray-50"
+        className="flex flex-1 self-center w-full justify-center items-center bg-gray-50 dark:bg-black"
         id="#slide-3"
       >
         <span className="text-2xl sm:text-4xl font-semibold py-4 sm:py-8">
@@ -29,7 +29,7 @@ export default function Home() {
         </span>
       </div>
       <Features />
-      <div className="flex flex-1 self-center w-full justify-center items-center bg-gray-50">
+      <div className="flex flex-1 self-center w-full justify-center items-center bg-gray-50 dark:bg-black">
         <span className="text-2xl sm:text-4xl font-semibold py-4 sm:py-8">
           Best In Class
         </span>
