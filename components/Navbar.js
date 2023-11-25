@@ -78,7 +78,12 @@ const Navbar = () => {
             <Link href="/">
               <img
                 src={"/logo-black.png"}
-                className="md:w-full md:h-[50px] w-auto h-auto object-cover"
+                className="md:w-full md:h-[50px] w-auto h-auto object-cover block dark:hidden"
+                alt="logo"
+              />
+              <img
+                src={"/logo.png"}
+                className="md:w-full md:h-[50px] w-auto h-auto object-cover dark:block hidden"
                 alt="logo"
               />
               {/* <h1 className="text-xl sm:text-3xl font-semibold tracking-wide">
