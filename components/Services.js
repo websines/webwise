@@ -33,7 +33,7 @@ const Services = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">
-                  Build your portfolio
+                  Web Development
                 </h3>
               </div>
             </div>
@@ -64,7 +64,7 @@ const Services = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">
-                  Get freelance work
+                  Web Design
                 </h3>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Services = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">
-                  Sell your goods
+                  Branding
                 </h3>
               </div>
             </div>
@@ -130,7 +130,7 @@ const Services = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">
-                  Get freelance work
+                  Animation
                 </h3>
               </div>
             </div>
@@ -161,7 +161,7 @@ const Services = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">
-                  Sell your goods
+                  Graphic Design
                 </h3>
               </div>
             </div>
@@ -193,7 +193,7 @@ const Services = () => {
               </div>
               <div class="flex-shrink-0">
                 <h3 class="block text-lg font-semibold text-gray-800 dark:text-white">
-                  Build your portfolio
+                  SEO
                 </h3>
               </div>
             </div>
